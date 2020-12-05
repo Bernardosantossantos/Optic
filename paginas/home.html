@@ -3,33 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Customer registration</title>
+    <title>Home Data Center</title>
+    <link rel="stylesheet" href="pricing.css">
+    <link rel="stylesheet" href="/Optic/bootstrap-4.5.2-dist/css/bootstrap-grid.min.css.map">
+    <link rel="stylesheet" href="jquery/jquery-3.5.1.min.js">
+    <link rel="stylesheet" href="/Optic/boot/https _getbootstrap.com_docs_4.5_dist_css_bootstrap.min.css">
+    
 
 
 
     <!-- Favicons -->
-    <link rel="apple-touch-icon" href="img/1.jpg" sizes="180x180">
-    <link rel="icon" href="img/1.jpg" sizes="32x32" type="image/png">
-    <link rel="icon" href="img/1.jpg" sizes="16x16" type="image/png">
-    <link rel="manifest" href="img/1.jpg">
-    <link rel="mask-icon" href="img/1.jpg" color="#563d7c">
-    <link rel="icon" href="img/1.jpg">
+    <link rel="apple-touch-icon" href="/Optic/img/3.jpg" sizes="180x180">
+    <link rel="icon" href="/Optic/img/3.jpg" sizes="32x32" type="image/png">
+    <link rel="icon" href="/Optic/img/3.jpg" sizes="16x16" type="image/png">
+    <link rel="manifest" href="/Optic/img/3.jpg">
+    <link rel="mask-icon" href="/Optic/img/3.jpg" color="#563d7c">
+    <link rel="icon" href="/Optic/img/3.jpg">
     <meta name="msapplication-config" content="/docs/4.5/assets/img/favicons/browserconfig.xml">
     <meta name="theme-color" content="#563d7c">
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+
 </head>
 
-
-<body>
+<body class="bg-light">
+    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+        <h5 class="my-0 mr-md-auto font-weight-normal">Optic Data Center</h5>
+        <nav class="my-2 my-md-0 mr-md-3">
+            <a class="p-2 text-dark" href="visitfor.html">Registrar una visita</a>
+        </nav>
+        <nav class="my-2 my-md-0 mr-md-3">
+            <a class="p-2 text-dark" href="reports.html">Reportes</a>
+        </nav>
+        <nav class="my-2 my-md-0 mr-md-3">
+            <a class="p-2 text-dark" href="#">Support</a>
+        </nav>
+        <a class="btn btn-outline-primary" href="login.html">Sign up</a>
+    </div>
 
     <div class="container">
         <div class="py-5 text-center">
-            <img class="d-block mx-auto mb-4" src="img/1.jpg" alt="" width="72" height="72">
-            <h2>Form to register new customers to the data center</h2>
-            <p class="lead">Please fill out this form is mandatory</p>
+            <img class="d-block mx-auto mb-4" src="/Optic/img/3.jpg" alt="" width="72" height="72">
+            <h2>Bienvenido al centro de datos de la óptic</h2>
+            <p class="lead">Elija una de las siguientes opciones que se encuentran en la parte superior</p>
         </div>
 
 
-        <div class="container col-md-8 order-md-1">
+       <!-- <div class="container col-md-8 order-md-1">
             <h4 class="mb-3">form</h4>
             <form class="needs-validation" novalidate>
                 <div class="row">
@@ -91,7 +126,7 @@
                 </div>
 
                 <div class="mb-3">
-                    <label for="address">Address</label>
+                    <label for="address">Address<span class="text-muted">(Optional)</span></label>
                     <input type="text" class="form-control" id="address" placeholder="1234 Main St" required>
                     <div class="invalid-feedback">
                         Please enter your shipping address.
@@ -103,7 +138,26 @@
                     <input type="text" class="form-control" id="number" placeholder="phone number">
                 </div>
 
-                <div class="row">
+                <div class="mb-3">
+                    <label for="reason">the reason of the visit</label>
+                    <select class="custom-select d-block w-100" id="reason" required>
+                        <option value="">Choose...</option>
+                        <option>tour of the data center</option>
+                        <option>acquire our services</option>
+                        <option>meeting</option>
+                        <option>...</option>
+                    </select>
+                    <div class="invalid-feedback">
+                        Please select a valid.
+                    </div>
+                </div>
+
+                <!-- <div class="container mt-3 mb-5" style="width: 400px">
+                    <h3>Date time picker</h3>
+                    <input type="text" id="picker" class="form-control">
+                </div>-->
+
+                <!-- <div class="row">
                     <div class="col-md-5 mb-3">
                         <label for="datetime">Country</label>
                         <select class="custom-select d-block w-100" id="country" required>
@@ -131,10 +185,9 @@
                             Zip code required.
                         </div>
                     </div>
-                </div>
+             <div> 
 
                 <hr class="mb-4">
-
                 <div class="custom-control custom-checkbox">
                     <input type="checkbox" class="custom-control-input" id="same-address">
                     <label class="custom-control-label" for="same-address">Save</label>
@@ -145,12 +198,9 @@
                 <button class="btn btn-primary btn-lg btn-block" type="submit">Registration confirm</button>
             </form>
         </div>
-    </div>
+    </div> -->
 
-    <link rel="stylesheet" href="bootstrap-4.5.2-dist/css/bootstrap-grid.css.map">
-    <link rel="stylesheet" href="jquery/jquery-3.5.1.min.js">
-    <link rel="stylesheet" href="boot/https _getbootstrap.com_docs_4.5_dist_css_bootstrap.min.css">
-
+   
 </body>
 
 </html>
